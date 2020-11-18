@@ -38,9 +38,6 @@ function makeDeck() {
             if(cardValues[x] == "Jack" || cardValues[x] == "Queen" || cardValues[x] == "King")
                 points = 10;
             if(cardValues[x] == "Ace" )
-                if(cardValues[x] > 11)
-                    points = 1;
-                if(cardValues[x] < 11)
                     points = 11;
             var card = {Value: cardValues[x], Suit: cardSuits[z], Points: points};
             cardDeck.push(card);
