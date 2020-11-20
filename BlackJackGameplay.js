@@ -65,6 +65,13 @@ function dealCards() {
     statuscardDeck();
 }
 
+function hit(int i) { // player[i]
+    var card = cardDeck.pop();
+    player[i].Cards.push(card);
+    statusPoints(); //where is this method?
+    //if player busts here it should be a game over
+    
+}
 
 function beginBlackJack() {
     document.getElementById('clickStart').value = "Restart";
