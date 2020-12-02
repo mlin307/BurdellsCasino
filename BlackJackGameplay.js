@@ -13,7 +13,7 @@
                 <div class = "update" id = "update"></div>
                 
             <div id = "cardDeck" class = "cardDeck">
-                <div id = "cardCounter">52</div>
+                <div id = "cardCounter">52</div> //total cards (no jokers)
             </div>
 
             <div id = "player" class = "player">
@@ -29,7 +29,7 @@
 var cardDeck = new Array();
 var cardSuits = ["Spades", "Clubs", "Diamonds", "Hearts"];
 var cardValues = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"];
-
+//creates new Deck of cards based on cardSuits and cardValues and inserts them into cardDeck
 function makeDeck() {
     cardDeck = new Array();
     for(var x = 0; x < cardValues.length; x++) {
@@ -44,6 +44,8 @@ function makeDeck() {
         }
     }
 }
+
+//randomizes order of deck
 function shuffleDeck() {
     for(var x = 0; x < 500; x++) {
         var playerCards = Math.floor(Math.random() * cardDeck.length);
@@ -54,6 +56,7 @@ function shuffleDeck() {
         cardDeck[houseCards] = hold;
     }
 }
+//deals a card to the player and to the house
 function dealCards() {
     for(var x = 0; x < 2; x++) {
         for(var z = 0; z < player.length; z++) {
@@ -72,7 +75,7 @@ function hit(int i) { // player[i]
     //if player busts here it should be a game over
     
 }
-
+// main function, creates a new deck, shuffles, and then deals cards to players (players in this case being the user and the house)
 function beginBlackJack() {
     document.getElementById('clickStart').value = "Restart";
     document.getElementById("update").style.display = "N/A";
