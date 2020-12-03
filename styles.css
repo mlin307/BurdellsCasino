@@ -1,0 +1,180 @@
+.playButton {
+    position: relative;
+    font-family: Cambria, serif;
+    left: 750px;
+    bottom: 115px;
+    font-size: 50px;
+}
+
+.playerClass {
+    position: absolute;
+    transform: scale(.85);
+    z-index: 0;
+}
+
+.playerCard1 {
+    position: fixed;
+    bottom: 760px;
+    left: 200px;
+}
+
+.playerCard2 {
+    position: fixed;
+    bottom: 760px;
+    left: 430px;
+}
+
+.playerCard3 {
+    position: fixed;
+    bottom: 760px;
+    left: 660px;
+}
+
+.playerCard4 {
+    position: fixed;
+    bottom: 460px;
+    left: 200px;
+}
+
+.playerCard5 {
+    position: fixed;
+    bottom: 460px;
+    left: 430px;
+}
+
+.playerCard6 {
+    position: fixed;
+    bottom: 460px;
+    left: 660px;
+}
+
+.houseClass {
+    position: absolute;
+    transform: scale(.85);
+    z-index: 1;
+}
+
+.houseCard1 {
+    position: fixed;
+    bottom: 830px;
+    left: 1030px;
+}
+
+.houseCard2 {
+    position: fixed;
+    bottom: 760px;
+    left: 1260px;
+}
+
+.houseCard3 {
+    position: fixed;
+    bottom: 760px;
+    left: 1490px;
+}
+
+.houseCard4 {
+    position: fixed;
+    bottom: 450px;
+    left: 1030px;
+}
+
+.houseCard5 {
+    position: fixed;
+    bottom: 450px;
+    left: 1260px;
+}
+
+.houseCard6 {
+    position: fixed;
+    bottom: 450px;
+    left: 1490px;
+}
+
+background {
+    z-index: -1
+}
+
+.hitButton{
+    position: relative;
+    left: 240px;
+    bottom: 166px;
+    font-family: Cambria, serif;
+    color: #b5a167;
+    background-color: #392271;
+    border-color: #ffffff;
+    border-radius: 20px;
+    font-size: 40px;
+    padding: 7px 70px;
+}
+
+.stayButton {
+    position: relative;
+    left: 260px;
+    bottom: 166px;
+    font-family: Cambria, serif;
+    color: #ce3d29;
+    background-color: #b5a167;
+    border-color: #ffffff;
+    border-radius: 20px;
+    font-size: 40px;
+    padding: 7px 70px;
+}
+
+.startButton {
+    position: relative;
+    left: 930px;
+    bottom: 166px;
+    font-family: Cambria, serif;
+    color: #392271;
+    background-color: #ce3d29;
+    border-color: #ffffff;
+    border-radius: 20px;
+    font-size: 40px;
+    padding: 7px 70px;
+}
+
+.playerTotal {
+    position: relative;
+    bottom: 175px;
+    left: 700px;
+    color: #ffffff;
+    font-family: Cambria, serif;
+    font-size: 40px;
+    z-index: 3;
+}
+
+.houseTotal {
+    position: relative;
+    bottom: 175px;
+    left: 1000px;
+    color: #ffffff;
+    font-family: Cambria, serif;
+    font-size: 40px;
+    z-index: 3;
+}
+
+.playAgain {
+    position: relative;
+    bottom: 120px;
+    left: 700px;
+    font-family: Cambria, serif;
+    font-size: 45px;
+}
+
+.game {
+    position: fixed;
+    left: 30px;
+    top: 7px;
+}
+
+.win {
+    position: fixed;
+    left: 30px;
+    top: 7px;
+}
+
+.lose {
+    position: fixed;
+    left: 30px;
+    top: 7px;
+}
